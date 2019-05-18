@@ -28,6 +28,7 @@ public class ClientSocketService extends Thread {
     private String message;
 
     public ClientSocketService(String ip, int port) throws IOException {
+        //get the connection
         this.ip = ip;
         this.port = port;
         this.message ="You are connected on the server";
